@@ -15,5 +15,4 @@ public class AICar extends Car {
 	
 	//run 메서드는 final 키워드를 사용했기 때문에, 재정의(overriding) 불가능
 	
-	
 }
