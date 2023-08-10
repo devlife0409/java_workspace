@@ -1,7 +1,5 @@
 package ch06;
 
-import java.util.Iterator;
-
 public class CastingExample {
 	public static void main(String[] args) {
 
@@ -30,15 +28,11 @@ public class CastingExample {
 
 		}
 
-//		for (int i = 0; i < animals.length; i++) {
-//			
-//		}
 		// 다형성, 다운캐스팅(Downcasting)
 		// 다운 캐스팅이란 업캐스팅된 객체를 다시 원래의 하위 클래스 타입으로
 		// 변환 하는 것을 말한다.
 		// 다운캐스팅은 수동으로 이루어지므로, 별도의 형 변환 연산자가 필요하다.
 		// 다운캐스팅은 업캐스팅된 객체에, 하위 클래스의 메서드 및 속성을 사용하기 위해 필요하다.
 		Bird bird = (Bird) animal;
-
 	}
 }

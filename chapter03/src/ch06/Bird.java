@@ -10,5 +10,4 @@ public class Bird extends Animal {
 	public void fly() {
 		System.out.println("새가 날아갑니다.");
 	}
-
 }

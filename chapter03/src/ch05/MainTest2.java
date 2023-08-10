@@ -7,7 +7,7 @@ import starcraft.Zergling;
 
 public class MainTest2 {
 	public static void main(String[] args) {
-		// unit 이라는 배열에 저글링, 질러스 마린을 담아 보세요.
+		// unit 이라는 배열에 저글링, 질럿 마린을 담아 보세요.
 		// 실행도 시켜 봅시다.
 
 		Marine mar1 = new Marine("김마린");

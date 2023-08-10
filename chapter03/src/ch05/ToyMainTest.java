@@ -9,9 +9,7 @@ public class ToyMainTest {
 		Scanner sc = new Scanner(System.in);
 		Random random = new Random();
 		int selected = random.nextInt(3) + 1;
-		
 
-		
 		Toy[] arrayToys = new Toy[3];
 		arrayToys[0] = new ToyBear("테디베어", 18_000);
 		arrayToys[1] = new ToyGun("k-2", 25_600);
